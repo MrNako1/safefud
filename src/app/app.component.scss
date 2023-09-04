@@ -1,5 +1,5 @@
 ion-menu ion-content {
-  --background: var(--ion-item-background, var(--ion-background-color, #fff));
+--background: var(--ion-item-background, var(--ion-background-color, #FF8000 )); 
 }
 
 ion-menu.md ion-content {
@@ -7,6 +7,7 @@ ion-menu.md ion-content {
   --padding-end: 8px;
   --padding-top: 20px;
   --padding-bottom: 20px;
+  
 }
 
 ion-menu.md ion-list {
@@ -55,6 +56,7 @@ ion-menu.md ion-item.selected {
 
 ion-menu.md ion-item.selected ion-icon {
   color: var(--ion-color-primary);
+
 }
 
 ion-menu.md ion-item ion-icon {
@@ -71,6 +73,7 @@ ion-menu.ios ion-content {
 
 ion-menu.ios ion-list {
   padding: 20px 0 0 0;
+  
 }
 
 ion-menu.ios ion-note {
@@ -95,12 +98,15 @@ ion-menu.ios ion-item ion-icon {
 
 ion-menu.ios ion-list#labels-list ion-list-header {
   margin-bottom: 8px;
+
+  
 }
 
 ion-menu.ios ion-list-header,
 ion-menu.ios ion-note {
   padding-left: 16px;
   padding-right: 16px;
+  
 }
 
 ion-menu.ios ion-note {
@@ -112,8 +118,15 @@ ion-note {
   font-size: 16px;
 
   color: var(--ion-color-medium-shade);
+  
 }
 
 ion-item.selected {
   --color: var(--ion-color-primary);
 }
+
+ion-card-content{
+  background-image: url('/assets/img/fondocomida.jpg')
+
+}
+
